@@ -65,6 +65,11 @@ jupyter notebook
 
 ---
 
+## Highlights
+- **~83% test accuracy, ~87% recall** — prioritizes catching sick patients over false alarms.
+- **Logistic Regression** chosen for interpretability — every coefficient maps directly to a risk factor.
+- **Coefficient analysis** reveals asymptotic chest pain (+0.97), male sex (+0.96), exercise angina (+0.84), and ST depression (+0.77) as the strongest positive predictors of heart disease.
+
 ## Notes
 - The `.venv` folder is local to this project — do not commit it to version control.
 - Re-run the install step after updating `requirements.txt`.
